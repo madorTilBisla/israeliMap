@@ -1,0 +1,69 @@
+body {
+    height: 117vh;
+    height: calc(var(--vh, 1vh) * 117);
+    width: 100vw;
+    background-image: url("images/QeilatNew.png");
+    background-size: 100vw 109vh;
+    background-size: 100vw calc(var(--vh, 1vh) * 109);
+    background-repeat: no-repeat;
+}
+
+.cities {
+    position: absolute;
+    height: 8vh;
+    height: calc(var(--vh, 1vh) * 8);
+    width: 48vw;
+    left: 28vw;
+}
+
+#videoCity {
+    position: absolute;
+    height: 25.7vh;
+    height: calc(var(--vh, 1vh) * 25.7);
+    width: 57vw;
+    left: 23vw;
+    top: 31.2vh;
+    top: calc(var(--vh, 1vh) * 31.2);
+}
+
+#answer4 {
+    top: 68vh;
+    top: calc(var(--vh, 1vh) * 68);
+}
+
+#answer3 {
+    top: 78vh;
+    top: calc(var(--vh, 1vh) * 78);
+}
+
+#answer2 {
+    top: 88vh;
+    top: calc(var(--vh, 1vh) * 88);
+}
+
+#answer1correct {
+    top: 98vh;
+    top: calc(var(--vh, 1vh) * 98);
+}
+
+#true {
+    position: absolute;
+    height: 40vh;
+    height: calc(var(--vh, 1vh) * 40);
+    width: 85vw;
+    left: 8vw;
+    top: 67vh;
+    top: calc(var(--vh, 1vh) * 67);
+    visibility: hidden;
+}
+
+#false {
+    position: absolute;
+    height: 40vh;
+    height: calc(var(--vh, 1vh) * 40);
+    width: 85vw;
+    left: 8vw;
+    top: 67vh;
+    top: calc(var(--vh, 1vh) * 67);
+    visibility: hidden;
+}

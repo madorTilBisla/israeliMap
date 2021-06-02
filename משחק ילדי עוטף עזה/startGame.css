@@ -1,0 +1,19 @@
+body {
+    height: 117vh;
+    height: calc(var(--vh, 1vh) * 117);
+    width: 100vw;
+    background-image: url("images/startGameNew.png");
+    background-size: 100vw 109vh;
+    background-size: 100vw calc(var(--vh, 1vh) * 109);
+    background-repeat: no-repeat;
+}
+
+#startBtn {
+    position: absolute;
+    height: 15vh;
+    height: calc(var(--vh, 1vh) * 15);
+    width: 30vw;
+    left: 2vw;
+    top: 90vh;
+    top: calc(var(--vh, 1vh) * 90);
+}
